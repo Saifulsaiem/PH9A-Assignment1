@@ -2,31 +2,64 @@
 body {
     font-family: 'Merriweather', serif;
 }
-.main-div{
-    margin: 50px 140px;
+
+.main-div {
+    margin: 50px 140px 0px 140px;
 }
-  /* section 1 style */
+
+/* section 1 style */
 .sec1-div1 {
     background-image: url('resources/Banner Image.png');
     width: 1320px;
     height: 600px;
     flex-shrink: 0;
     border-radius: 16px;
-   
+
 }
-.sec1-sub-div1{
+
+.sec1-sub-div1 {
     color: papayawhip;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
     line-height: normal;
-   padding-top: 185px;
+    padding-top: 185px;
 }
-.sec1-sub-div2{
+
+.sec1-sub-div2 {
     color: pink;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
     word-spacing: 8px;
+}
+
+/* section 2 styles */
+.sec2-div{
+    display: block;
+    margin-bottom: 120px;
+}
+.sec2-div1 {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.sec2-div2 {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.sec2-div2>h5 {
+    color: #F00;
+}
+
+.sec2-div3 {
+    width: 802px;
+    height: 500px;
+    margin: auto;
 }
