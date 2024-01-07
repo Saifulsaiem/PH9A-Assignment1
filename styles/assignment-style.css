@@ -90,7 +90,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    
+
 }
 
 .sec3-btn {
@@ -106,4 +106,35 @@ body {
     height: 464px;
     align-items: center;
     flex-shrink: 0;
+}
+
+/* section 4 styles */
+
+.sec4-div1 {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: capitalize;
+    width: 1320px;
+    height: 482px;
+    background-color: rgb(247, 236, 223);
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sec4-desc {
+    color: #F00;
+   
+}
+
+.sec4-btn{
+    color: #f7f0f0;
+    font-size: 20px;
+    font-weight: 700;
+    background: red;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+    margin-top: 40px;
 }
