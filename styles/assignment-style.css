@@ -202,9 +202,10 @@ body {
     height: 7335px;
     background-color: #f7f0f0;
 } */
-.sec6-maindiv{
-  margin-top: 70px;
+.sec6-maindiv {
+    margin-top: 70px;
 }
+
 .sec6-sub1 {
 
     text-align: center;
@@ -223,22 +224,24 @@ body {
     margin-bottom: 15px;
     margin-top: 15px;
 }
-.sec6-div2{
+
+.sec6-div2 {
     height: 662px;
     background-image: url('resources/Rectangle\ 2.png'), url('resources/Rectangle\ 1.png');
     background-repeat: no-repeat;
-    background-position: bottom , top right ;
+    background-position: bottom, top right;
     border-radius: 16px;
     margin-top: 50px;
     background-color: beige;
     padding: 0 200px 0px 30px;
 }
+
 /* .sec6-pic1{
     height: 360px;
     width: 540px;
     position: ; */
-    /* padding: 0px 645px 89px 198px; */
-    /* margin-left: 198px;
+/* padding: 0px 645px 89px 198px; */
+/* margin-left: 198px;
     margin-bottom: 89px; */
 /* } */
 /* .sec6-subdiv{
@@ -249,7 +252,7 @@ body {
     justify-content: space-between;
    
 } */
-.sec6-pic11{
+.sec6-pic11 {
     float: left;
     width: 540px;
     height: 550px;
@@ -260,10 +263,39 @@ body {
 
 
 }
-.sec6-pic2{
+
+.sec6-pic2 {
     float: right;
     width: 250px;
     height: 250px;
     margin-right: 130px;
     margin-top: 120px;
+}
+
+/* section 7 styles */
+.sec7-maindiv {
+    margin-top: 70px;
+    background-color: rgb(233, 229, 224);
+}
+
+.sec7-p1 {
+    text-align: left;
+    color: #F00;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.sec7-p2 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.sec7-p3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 30px;
 }
