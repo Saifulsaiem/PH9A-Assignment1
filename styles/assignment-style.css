@@ -121,6 +121,7 @@ body {
     background-color: rgb(247, 236, 223);
     text-align: center;
     padding-top: 100px;
+    border-radius: 20px;
 }
 
 .sec4-desc {
@@ -276,6 +277,7 @@ body {
 .sec7-maindiv {
     margin-top: 70px;
     background-color: rgb(233, 229, 224);
+    border-radius: 10px;
 }
 
 .sec7-p1 {
@@ -299,3 +301,75 @@ body {
     line-height: 32px;
     margin-top: 30px;
 }
+
+.sec7-div2 {
+    display: block;
+
+}
+
+.div2-item {
+    display: flex;
+    gap: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.sec7-sub-div2 {
+    width: 424px;
+    height: 450px;
+}
+
+/* section 8 styles */
+.sec8-maindiv {
+    text-align: center;
+    background-color: rgb(246, 218, 222);
+    margin-top: 70px;
+    border-radius: 15px;
+}
+
+.sec8-div1 {
+    padding-top: 80px;
+}
+
+.sec8-p1 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.sec8-p2 {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 5px;
+}
+.sec8-div3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    border-radius: 50px;
+}
+.sec8-eml{
+ width: 450px;
+ height: 70px;
+ font-size: 20px;
+ background: white;
+ color: #070211;
+ border: none;
+ border-top-left-radius: 30px;
+ border-bottom-left-radius: 30px;
+}
+#subs-btn{
+    width: 160px;
+ height: 70px;
+ font-size: 20px;
+ background: rgb(251, 7, 7);
+ color: hsl(260, 13%, 95%);
+ border: none;
+ border-top-right-radius: 30px;
+ border-bottom-right-radius: 30px;
+}
+/* main done */
