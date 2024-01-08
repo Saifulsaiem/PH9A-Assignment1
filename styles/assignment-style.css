@@ -8,12 +8,15 @@ body {
 }
 
 /* section 1 style */
-.sec1-div1 {
+.sec1-div1 {                /*sir , gradient niye hocche na!!! project 3 bar korlam ei niye!! gradient dilee kichui r tik jaiga moto thakee na..*/
+     /* background: linear-gradient(45deg, rgb(49, 45, 45) 0%, rgb(12, 7, 7) 100% , black); */
     background-image: url('resources/Banner Image.png');
     width: 1320px;
-    height: 600px;
+    height: 600px;                
     flex-shrink: 0;
     border-radius: 16px;
+    /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+   
 
 }
 
@@ -75,6 +78,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 68px 138px;
+    /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00); */
 }
 
 .column-div1 {
@@ -373,3 +377,39 @@ body {
  border-bottom-right-radius: 30px;
 }
 /* main done */
+.foot-back{
+    margin: 70px 0px 0px 0px;
+    background-color: brown;
+    display: block;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.ftdiv1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 140px;
+}
+#ar-partesina{
+    display: block;
+}
+.omaa{
+    display: flex;
+    gap: 5px;
+}
+.ftdiv2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ftdiv3{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 140px;
+}
+hr{
+    border: 5px solid gray;
+    border-radius: 15px;
+}
