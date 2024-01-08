@@ -10,9 +10,9 @@ body {
 /* section 1 style */
 .sec1-div1 {                /*sir , gradient niye hocche na!!! project 3 bar korlam ei niye!! gradient dilee kichui r tik jaiga moto thakee na..*/
      /* background: linear-gradient(45deg, rgb(49, 45, 45) 0%, rgb(12, 7, 7) 100% , black); */
-    background-image: url('resources/Banner Image.png');
     width: 1320px;
-    height: 600px;                
+    height: 600px;  
+    background-image: url('resources/Banner Image.png'); 
     flex-shrink: 0;
     border-radius: 16px;
     /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
@@ -30,7 +30,7 @@ body {
 }
 
 .sec1-sub-div2 {
-    color: pink;
+    color: rgb(247, 171, 184);
     text-align: center;
     font-size: 72px;
     font-weight: 900;
