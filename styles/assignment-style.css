@@ -140,14 +140,15 @@ body {
 }
 
 /* section 5 styles */
-.sec5-div1{
+.sec5-div1 {
     display: flex;
     gap: 100px;
-    justify-items:auto;
+    justify-items: auto;
     margin: 120px 0px;
     align-items: center;
-   height: 463px;
+    height: 463px;
 }
+
 .sec5-clm1-h4 {
     color: #F00;
     font-weight: 500;
@@ -161,7 +162,8 @@ body {
     font-weight: 400;
     line-height: 32px;
 }
-.sec5-column1{
+
+.sec5-column1 {
     max-width: 393px;
 }
 
@@ -181,13 +183,87 @@ body {
     margin: auto;
     padding: 49px;
 }
-.sec5-h1{
+
+.sec5-h1 {
     color: #F00;
     font-weight: 700;
     font-size: 48px;
-    }
-.sec5-column3{
+}
+
+.sec5-column3 {
     width: 320px;
-    height:300px;
+    height: 300px;
     line-height: 5px;
+}
+
+/* section6 styles */
+/* .sec6-maindiv{
+    width: 1600px;
+    height: 7335px;
+    background-color: #f7f0f0;
+} */
+.sec6-maindiv{
+  margin-top: 70px;
+}
+.sec6-sub1 {
+
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.sec6-div1-p1 {
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sec6-div2{
+    height: 662px;
+    background-image: url('resources/Rectangle\ 2.png'), url('resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: bottom , top right ;
+    border-radius: 16px;
+    margin-top: 50px;
+    background-color: beige;
+    padding: 0 200px 0px 30px;
+}
+/* .sec6-pic1{
+    height: 360px;
+    width: 540px;
+    position: ; */
+    /* padding: 0px 645px 89px 198px; */
+    /* margin-left: 198px;
+    margin-bottom: 89px; */
+/* } */
+/* .sec6-subdiv{
+    display: flex;
+    gap: 200pxpx;
+    align-items: center;
+    width: 1020px;
+    justify-content: space-between;
+   
+} */
+.sec6-pic11{
+    float: left;
+    width: 540px;
+    height: 550px;
+    float: inline-start;
+    margin-top: 100px;
+    margin-bottom: 89px;
+    opacity: 0.9;
+
+
+}
+.sec6-pic2{
+    float: right;
+    width: 250px;
+    height: 250px;
+    margin-right: 130px;
+    margin-top: 120px;
 }
